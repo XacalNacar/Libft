@@ -35,12 +35,13 @@ char	*ft_strdup(const char *s)
 	s1[k] = '\0';
 	return (s1);
 }
-
-/*int	main()
+/*
+int	main()
 {	
 	char	*sp = "Calcareo";
 	char *frfre = ft_strdup(sp);
 
-	free(frfre);
-	return(0);
+	printf ("%s", frfre);
+	free (frfre);
+	return (0);
 }*/

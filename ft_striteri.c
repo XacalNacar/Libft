@@ -14,8 +14,9 @@
 /*
 void	f(unsigned int i, char *s)
 {
-	if (s[i] == 'a')
-		s[i] = 'b';
+	void(i);
+	if (s == 'a')
+		s = 'b';
 }
 */
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
@@ -30,7 +31,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	}
 }
 /*
-int	main()
+int	main(void)
 {
 	char	k[] = "aaaaaaaaaaaaaaa";
 	printf ("%s\n", k);

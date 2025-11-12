@@ -33,13 +33,13 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-/*int	main()
+/*
+int	main()
 {
 	char	n[] = "Plato";
 	int	c;
 
-	c = 'I';
+	c = 'l';
 	printf ("%s", ft_strchr(n, c));
 	return (0);
 }*/

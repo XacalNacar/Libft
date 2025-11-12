@@ -34,12 +34,10 @@ int	main()
 	char	*a2;
 	char	*frfr;
 
-
 	a1 = "Hola";
 	a2 = "Adios";
 	frfr = ft_strjoin(a1, a2);
 	printf("%s", frfr);
 	free(frfr);
 	return (0);
- 
 }*/

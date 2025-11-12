@@ -9,27 +9,25 @@
 /*   Updated: 2025/11/02 13:05:46 by amaymart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 size_t	ft_strlen(const char *s)
 {
-	int		i;
-	size_t	n;
+	size_t		i;
 
 	i = 0;
-	n = 0;
 	while (s[i] != '\0')
 	{
 		i++;
-		n++;
 	}
-	return (n);
+	return (i);
 }
 /*
 int	main()
 {
 	const char *s = "Hola";
 	
-	printf ("%zu", strlen(s));
+	printf ("%zu", ft_strlen(s));
 	return (0);
 }*/

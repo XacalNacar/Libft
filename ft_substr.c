@@ -52,6 +52,5 @@ int	main()
 	char	*res = ft_substr(fs, st, l);
 	printf("%s", res);
 	free (res);
-	free ();
 	return (0);
 }*/

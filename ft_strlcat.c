@@ -47,5 +47,4 @@ int	main()
 
 	printf ("%zu\n%s\n", ft_strlcat(d, s, 8), d);
 	return (0);
-}
-*/
+}*/
